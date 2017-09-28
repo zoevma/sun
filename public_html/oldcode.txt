@@ -1,0 +1,77 @@
+<div class="tableContainer-1" >
+    <div class="tableContainer-2" >
+
+      <table class="myTable" >
+        <tr>
+        <td>
+
+            <h2> Welcome </h2>
+         </td>
+        </tr>
+        <tr height="50">
+          <td>
+            home            
+          </td>
+          <td>
+          <a href="news.html">
+            recipes
+          </a>
+          </td>
+          <td>
+            <a href="aboutus.html">
+            about us
+          </a>
+          </td>
+          <td>
+            <a href="contact.html">
+            contact
+          </a>
+          </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+        <table align="center" border="3">
+          <tr>
+            <td width="700">
+
+            </td>
+            <td>
+              <table border="1">
+                <tr height="133">
+                  <td>
+                    <a href="article1.html">
+                      Chocolate Chip Cookies
+                    </a>
+                  </td>
+                </tr>
+                <tr height="133">
+                  <td>
+                    <a href="article2.html">
+                    Blueberry Buckle
+                  </a>
+                  </td>
+                </tr>
+                <tr height="133">
+                  <td>
+                    article 3
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+        <td align="center" colspan="4" height="50">
+          designed by zoe marolf creds to majed
+
+        </td>
+      </tr>
+      </table>
+
+    </div>
+  </div>
+</body>
+<script>
+</script>
