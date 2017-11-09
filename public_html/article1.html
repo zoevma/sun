@@ -10,17 +10,55 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div class= "container">
-    <div class="btn-group btn-group-justified">
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Hello World</a>
+    </div>
+    <ul class="nav navbar-nav">
 
-        <a href="index.html" class="btn btn-default"> Home </a>
-        <a href="article2.html" class="btn btn-default"> Recipes </a>
-        <a href="article1.html" class=" active btn btn-default"> Travel </a>
-        <a href="photos.html".html class="btn btn-default"> Photos </a>
+      <li><a href="index.html" class="btn btn-default"> Home </a></li>
+      <li><a href="article2.html" class="btn btn-default"> Recipes </a></li>
+      <li class="active"><a href="article1.html"> Travel </a></li>
+      <li><a href="photos.html".html class="btn btn-default"> Photos </a></li>
+    </ul>
+  </div>
+</nav>
 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/bagan.jpeg" alt="Bagan">
+    </div>
+
+    <div class="item">
+      <img src="images/Anisakafalls.jpeg" alt="Anisaka Falls">
+    </div>
+
+    <div class="item">
+      <img src="images/nyaungshwe.jpeg" alt="Nyaung Shwe">
     </div>
   </div>
 
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div class="container">
   <h2>  Myanmar <small> Sept 29. - Oct 15. </small> </h2>
 
   On Friday the 29th we left Zurich in the evening and arrived in Bangkok on Saturday morning. Sunday we took a 1.5 hour flight
@@ -60,8 +98,9 @@
   are just a guess, there is no difference between yoghurt, milkshake, milk or lassi.
   The next day we visited a waterfall. We had to walk down on a steep, muddy (bec it had rained the whole night) path to reach them.
   By the time we got back we were drenched in sweat from the humidity. Then we took a taxi back to Mandalay and just hung around because
-  the monsoon season had flooded the streets.
-
+  the monsoon season had flooded the streets. The next day we took a plane back to Bangkok, where we spent a few nights before flying
+  back to Switzerland.
+</div>
 
 </body>
 </html>
